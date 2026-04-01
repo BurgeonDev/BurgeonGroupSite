@@ -3,9 +3,9 @@ import parse from 'html-react-parser'
 
 function SectionTitle(props) {
     return (
-        <div className={`section-title ${props.variant === "light" ? "section-title--light" : ""}`}>
-            <h6>{props.title}</h6>
-            <h2>{parse(props.heading)}</h2>
+        <div className={`section-title`}>
+            <h3 className='text-white'>{props.title}</h3>
+            <h5 className='text-white'>{parse(props.heading)}</h5>
             {(() => {
                 if (props.text) {
                     return <p>{parse(props.text)}</p>

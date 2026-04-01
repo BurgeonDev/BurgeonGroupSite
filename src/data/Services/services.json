@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Creative Ideas",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/01.jpg",
+    "title": "Construction",
+    "shortDesc": "Burgeon Group's Construction division delivers residential and commercial building projects. With our project management expertise we aim to ensure timely, cost-effective, and sustainable results.",
+    "thumb": "service/construction.jpeg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
@@ -17,9 +17,9 @@
   },
   {
     "id": 2,
-    "title": "Digital Solutions",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/02.jpg",
+    "title": "Travel",
+    "shortDesc": "Burgeon Group's Travel division offers unforgettable domestic travel experiences across Pakistan. We provide curated tours and seamless logistics for explorers nationwide.",
+    "thumb": "service/travel.jpeg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
@@ -33,9 +33,9 @@
   },
   {
     "id": 3,
-    "title": "Brand & Communication",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/03.jpg",
+    "title": "Organic Food",
+    "shortDesc": "Burgeon Group's Organic Food division brings organic, chemical-free produce to your table. Sourced from trusted local farms, our range includes wheat starch, almond oil, walnut oil, jaggery (gurh) etc.",
+    "thumb": "service/organicfood.jpeg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
@@ -49,45 +49,13 @@
   },
   {
     "id": 4,
-    "title": "Creative Strategy",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
+    "title": "Technology",
+    "shortDesc": "Burgeon Group's Technology division delivers robust, scalable and affordable software and technology soutions that help individuals, startups and businesses to grow, automate and scale seamlessly.",
     "thumb": "service/04.jpg",
     "previewImages": [
       "service/details/01.jpg",
       "service/details/02.jpg",
       "service/details/03.jpg"
-    ],
-    "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
-    "features": [
-      "Voluptatum deleniti atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat",
-      "Atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat"
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Marketing Policy",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/05.jpg",
-    "previewImages": [
-      "service/details/01.jpg",
-      "service/details/02.jpg",
-      "service/details/03.jpg"
-    ],
-    "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
-    "features": [
-      "Voluptatum deleniti atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat",
-      "Atque corrupti is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat"
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Campaign & PR",
-    "shortDesc": "Lorem ipsum dolor sit amet, consect etur adipiscing elit consectetur adipisicing elit. Asdipiscing elit. Consectetur adipisicing hastech.",
-    "thumb": "service/06.jpg",
-    "previewImages": [
-      "service/details/03.jpg",
-      "service/details/01.jpg",
-      "service/details/02.jpg"
     ],
     "aboutServiceDesc": "<p>Voluptatum delenitied atqued corrupti is eseted quased stias cepturi sint aete non provident, csimilique sunt dunt labore ete dolored magnam aliquam quaerat Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidun</p>   <p>Corrupti deleniti atque magnam is es et quas stias cepturi sint aete non provident, similique sunt dunt ut labore et dolore magnam aliquam quaerat Neque porro quisquam est dolorem</p>",
     "features": [

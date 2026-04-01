@@ -14,15 +14,15 @@ function Footer() {
                         <div className="widget-item">
                             <div className="about-widget">
                             <Link to="/" className="logo" style={{color:"black"}}>
-                Winning
+                Burgeon Group
                 </Link>
 
                                 <Text>
-                                    During the summer my wife and I got to go on an amazing road trip in Vancouver.
+                                    A business group serving industries like construction, technology, travel and organic products.
                                 </Text>
 
                                 <Text classes="copyright-txt">
-                                    &copy; {new Date().getFullYear()} Winning Ltd. All Rights Reserved.
+                                    &copy; {new Date().getFullYear()} Burgeon Group. All Rights Reserved.
                                 </Text>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ function Footer() {
                         </Widget>
                     </div>
 
-                    <div className="col-md-4 col-lg-2 ml-auto">
+                    {/* <div className="col-md-4 col-lg-2 ml-auto">
                         <Widget title="Social Links">
                             <List classes="widget-list">
                                 <LI><Link to="/" target={'_blank'}>Facebook</Link></LI>
@@ -48,14 +48,15 @@ function Footer() {
                                 <LI><Link to="/" target={'_blank'}>Instagram</Link></LI>
                             </List>
                         </Widget>
-                    </div>
+                    </div> */}
 
-                    <div className="col-md-4 col-lg-3">
+                    <div className="col-md-4 col-lg-4">
                         <Widget title="Contact Us">
                             <address>
-                                2005 Stokes Isle Apartment. 896, Washington 10010, USA <br/>
-                                https://example.com <br/>
-                                (+68) 120034509
+                                The Binary, Business Bay, Dubai, UAE <br/>
+                                Office 349, Street 01, i-9/3, Islamabad, Pakistan<br/>
+                                https://burgeon-grp.com <br/>
+                                +92-333-134-2525 || +971-52727-0895
                             </address>
                         </Widget>
                     </div>

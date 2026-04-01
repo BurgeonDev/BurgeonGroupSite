@@ -74,8 +74,30 @@
 }
 
 .section-title {
+  margin-bottom: 55px;
+
+  @media #{$sm-device} {
+    margin-bottom: 40px;
+  }
+
+  h6 {
+    margin-bottom: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
   h2 {
-    font-weight: 500;
+    @media #{$sm-device} {
+      font-size: 24px;
+    }
+  }
+
+  &--light {
+    color: #bbbbbb;
+
+    h2, h6 {
+      color: $white;
+    }
   }
 }
 

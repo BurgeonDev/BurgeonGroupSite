@@ -19,13 +19,13 @@ const HomeOne = () => {
     return (
         <Fragment>
             <Header/>
-            <Slider/>
+            {/* <Slider/> */}
+            <Services/>
             <About/>
             <Features classes="sp-top"/>
-            <Services classes="sm-top-wt"/>
             <Testimonials/>
             <Team/>
-            <Blog/>
+            {/* <Blog/> */}
             <BrandLogo/>
             <Funfact/>
             <CallToAction/>

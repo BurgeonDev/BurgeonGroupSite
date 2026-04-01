@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "title": "Creative Team",
-    "text": "We have creative team, they always ready to help you.",
+    "title": "Diverse Expertise",
+    "text": "Our multidisciplinary approach allows us to offer unique, integrated solutions.",
     "imgSrc": "feature/01.png"
   },
   {
     "id": 2,
-    "title": "Best Service",
-    "text": "We have creative team, they always ready to help you.",
+    "title": "Innovation Driven",
+    "text": "We combine tech and industry trends to deliver cutting-edge solutions.",
     "imgSrc": "feature/02.png"
   },
   {
     "id": 3,
-    "title": "Online Support",
-    "text": "We have creative team, they always ready to help you.",
+    "title": "Proven Track Record",
+    "text": "With years of experience, we have a history of successful projects & satisfied clients.",
     "imgSrc": "feature/03.png"
   }
 ]

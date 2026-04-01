@@ -6,6 +6,10 @@
   padding: 110px 0 130px;
   position: relative;
   z-index: 1;
+  
+  h1,h2,h3,h4,h5,h6, p {
+    color: #FFF; // or strong dark color
+  }
 
   @media #{$md-device} {
     padding: 90px 0 135px;
@@ -44,7 +48,7 @@
       margin-bottom: 0;
 
       @media #{$sm-device} {
-        font-size: 16px;
+        font-size: 10px;
       }
     }
   }

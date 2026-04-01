@@ -22,13 +22,13 @@ const PageAbout = () => {
             <PageHeader
                 bgImg={require('../assets/img/page-header.jpg')}
                 title="ABOUT US"
-                content="Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+                content="<b>Burgeon Group</b> always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
             />
             <About
                 title={'Our Team'}
                 heading="Meet Our <br/> Expert Member"
                 thumb={ServiceThumb}
-                content="<b>Businex</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+                content="<b>Burgeon Group</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
             />
             <Services/>
             <Features classes={'sm-top'}/>

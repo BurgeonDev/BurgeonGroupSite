@@ -11,8 +11,8 @@ function Services({classes}) {
             <div className="service-area-top" style={{backgroundImage: `url("${serviceTopBg}")`}}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 col-xl-5 m-auto text-center">
-                            <SectionTitle variant="light" title="Our Services" heading="We make it simple, providing best solutions" />
+                        <div className="text-center">
+                            <SectionTitle title="Your Trusted Partner in Infrastructure, Mobility, and Digital Innovation." heading="Burgeon Group stands at the intersection of reliable construction, seamless travel experiences, and transformative technology. We don’t just manage projects; we build ecosystems that empower communities and businesses to thrive." />
                         </div>
                     </div>
                 </div>

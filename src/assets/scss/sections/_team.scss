@@ -95,10 +95,32 @@
 
 .team-area-wrapper {
   .section-title {
-    @media screen and (min-width: 1500px) {
-      padding-right: 100px;
+  margin-bottom: 55px;
+
+  @media #{$sm-device} {
+    margin-bottom: 40px;
+  }
+
+  h6 {
+    margin-bottom: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    @media #{$sm-device} {
+      font-size: 24px;
     }
   }
+
+  &--light {
+    color: #bbbbbb;
+
+    h2, h6 {
+      color: $white;
+    }
+  }
+}
 
   .team-content-wrap {
     @media screen and (min-width: 1500px) {

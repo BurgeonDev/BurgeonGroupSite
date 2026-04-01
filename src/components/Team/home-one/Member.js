@@ -1,39 +1,68 @@
-import React,{Fragment} from 'react';
-import {Link} from "react-router-dom";
+import React, { useState } from 'react';
 
-function Member(props) {
-    const teamMemberURl = `/team-member/${props.name.split(' ').join('-').toLocaleLowerCase()}?id=${props.id}`;
+function FAQItem({ question, answer, color }) {
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
-        <Fragment>
-            {props.type === 'page' ? (
-                <div className="col-sm-6 col-lg-3">
-                    <div className="team-mem-item">
-                        <figure className="member-pic">
-                            <Link to={`${process.env.PUBLIC_URL + teamMemberURl}`}>
-                                <img src={require('../../../assets/img/' + props.profilePic)} alt={props.name}/>
-                            </Link>
-                        </figure>
-                        <div className="member-info">
-                            <h5><Link to={`${process.env.PUBLIC_URL + teamMemberURl}`} className="stretched-link">{props.name}</Link></h5>
-                            <span className="designation">{props.designation}</span>
-                        </div>
-                    </div>
-                </div>
-            ):(
-                <div className="team-mem-item">
-                    <figure className="member-pic">
-                        <Link to={`${process.env.PUBLIC_URL + teamMemberURl}`}>
-                            <img src={require('../../../assets/img/' + props.profilePic)} alt={props.name}/>
-                        </Link>
-                    </figure>
-                    <div className="member-info">
-                        <h5><Link to={`${process.env.PUBLIC_URL + teamMemberURl}`} className="stretched-link">{props.name}</Link></h5>
-                        <span className="designation">{props.designation}</span>
-                    </div>
+        <div
+            style={{
+                marginBottom: '10px',
+                borderRadius: '8px',
+                overflow: 'hidden',
+                background: 'rgba(255,255,255,0.08)',
+                border: '1px solid rgba(255,255,255,0.12)',
+                transition: 'all 0.3s ease'
+            }}
+        >
+            <button
+                onClick={() => setIsOpen(!isOpen)}
+                style={{
+                    width: '100%',
+                    background: 'none',
+                    border: 'none',
+                    color: isOpen ? color : '#fff',
+                    padding: '14px 18px',
+                    textAlign: 'left',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    fontSize: '14px',
+                    fontWeight: isOpen ? '600' : '500',
+                    lineHeight: '1.4',
+                    transition: 'color 0.25s ease'
+                }}
+            >
+                <span style={{ paddingRight: '12px' }}>{question}</span>
+                <span
+                    style={{
+                        fontSize: '20px',
+                        fontWeight: '300',
+                        flexShrink: 0,
+                        transform: isOpen ? 'rotate(45deg)' : 'rotate(0deg)',
+                        transition: 'transform 0.3s ease',
+                        color: color
+                    }}
+                >
+                    +
+                </span>
+            </button>
+
+            {isOpen && (
+                <div
+                    style={{
+                        padding: '12px 18px 14px',
+                        color: 'rgba(255,255,255,0.75)',
+                        fontSize: '13px',
+                        lineHeight: '1.7',
+                        borderTop: '1px solid rgba(255,255,255,0.08)'
+                    }}
+                >
+                    {answer}
                 </div>
             )}
-        </Fragment>
+        </div>
     );
 }
 
-export default Member;
+export default FAQItem;

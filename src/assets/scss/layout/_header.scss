@@ -3,7 +3,7 @@
 ===========================*/
 
 .header-area{
-  background-color: $brandColor;
+  background-color: black;
   padding: 30px 0;
   transition: 0.4s;
 
@@ -26,15 +26,20 @@
       }
     }
 
-    .main-menu{
-      .submenu-nav{
-        margin-top: 25px;
+  .main-menu {
+    .submenu-nav {
+      margin-top: 25px;
+      text-black
 
-        &:before{
-          height: 25px;
-        }
+      &:before {
+        height: 25px;
+      }
+
+      a {
+        color: black; // or #000
       }
     }
+  }
   }
 
   &.transparent:not(.sticky){
@@ -56,7 +61,7 @@
 
         &.has-submenu{
           &:after{
-            color: $brandColor;
+            color: black;
             font-weight: 600;
           }
         }
@@ -79,7 +84,7 @@
 
 // Index Action
 .header-action{
-  color: $white;
+  color: $black;
   font-size: 22px;
 
   @media #{$lg-device, $sm-device} {

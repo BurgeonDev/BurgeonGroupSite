@@ -20,7 +20,7 @@ const Header = () => {
     }, []);
 
     return (
-        <header className={`header-area ${isSticky ? 'sticky' : 'not-sticky'}`}>
+        <header className={`header-area ${isSticky ? 'sticky' : ''}`}>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-5 col-lg-2">
@@ -28,7 +28,7 @@ const Header = () => {
                     </div>
 
                     <div className="col-lg-7 d-none d-lg-block">
-                        <div className="navigation-area mt-lg-3">
+                        <div className="mt-lg-3 text-black">
                             <Navbar/>
                         </div>
                     </div>
