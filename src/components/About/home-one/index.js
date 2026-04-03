@@ -24,9 +24,6 @@ const About = () => {
                             <h2>{parse(about.heading)}</h2>
                             <span className="about-since">{about.since}</span>
                             <p>{parse(about.text)}</p>
-                            <Link to={`${process.env.PUBLIC_URL + about.btnLink}`}
-                                  className="btn-about">{about.btnText} <i
-                                className="fa fa-angle-double-right"/></Link>
                         </Content>
                     </div>
                 </div>

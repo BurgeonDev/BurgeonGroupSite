@@ -6,6 +6,9 @@ import BlogContent from "./ConstructionContent";
 import BlogWhyUs from "./WhyUsContent";
 import SidebarForBlog from "../SidebarForBlog";
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import MobileMenu from '../../components/MobileMenu';
+import LoginRegister from '../../components/LoginRegister';
 
 const BlogPage = ({sidebar_position,blog_type,sidebar}) => {
     return (
@@ -35,6 +38,11 @@ const BlogPage = ({sidebar_position,blog_type,sidebar}) => {
 
                 {sidebar === true && sidebar_position === 'right' ? <SidebarForBlog/> : null}
             </PageWrapper>
+            <div className="mt-50 mb-30">
+            <Footer/>
+            <MobileMenu/>
+            <LoginRegister/>
+            </div>
         </Fragment>
     );
 };
