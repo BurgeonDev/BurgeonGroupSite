@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react';
 import Header from "../components/Header";
-import BlogPage from "../templates/Blog";
+import BlogPage from "../templates/Construction";
 import Footer from "../components/Footer";
 import LoginRegister from "../components/LoginRegister";
 import MobileMenu from "../components/MobileMenu";

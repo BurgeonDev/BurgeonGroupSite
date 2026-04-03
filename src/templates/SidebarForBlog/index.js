@@ -7,7 +7,7 @@ import Anchor from "../../components/UI/Anchor";
 import FeaturedBlog from "../../components/FeaturedBlog";
 import Newsletter from "../../components/Newsletter";
 
-import Blogs from "../../data/Blog/blog";
+import constructionData from "../../data/Construction/construction.json";
 import Categories from "../../data/Sidebar/sidebar";
 import BannerImg from "../../assets/img/banner-poster.jpg";
 
@@ -27,7 +27,7 @@ const SidebarForBlog = ({classes}) => {
             <SidebarItem title={'FEATURED POSTS'} classes={'single-sidebar-item-wrap'}>
                 <div className={'latest-blog-widget'}>
                     {
-                        Blogs.reverse().slice(0,4).map(post=>(
+                        constructionData.reverse().slice(0,4).map(post=>(
                             <FeaturedBlog key={post.id} id={post.id} title={post.title} publishDate={post.publishDate} thumb={post.thumb} />
                         ))
                     }

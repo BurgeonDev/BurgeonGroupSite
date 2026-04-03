@@ -3,39 +3,42 @@
     "id": 1,
     "title": "Home",
     "link": "/",
-    "megaMenu": false
-   
-  },
-  {
-    "id": 2,
-    "title": "About",
-    "link": "/about",
     "megaMenu": false,
     "subMenu": false
   },
   {
     "id": 3,
-    "title": "Services",
-    "link": "/services",
+    "title": "Technology",
+    "link": "/technology",
     "megaMenu": false,
     "subMenu": false
   },
   {
     "id": 4,
-    "title": "Team",
-    "link": "/team",
+    "title": "Construction",
+    "link": "/construction",
     "megaMenu": false,
     "subMenu": false
   },
   {
     "id": 5,
-    "title": "Blog",
-    "link": "/blog",
-    "megaMenu": false
+    "title": "Travel",
+    "link": "/travel",
+    "megaMenu": false,
+    "subMenu": false
   },
   {
     "id": 6,
-    "title": "Contact",
-    "link": "/contact"
+    "title": "Organic Food",
+    "link": "/organic-food",
+    "megaMenu": false,
+    "subMenu": false
+  },
+  {
+    "id": 7,
+    "title": "Contact Us",
+    "link": "/contact",
+    "megaMenu": false,
+    "subMenu": false
   }
 ]

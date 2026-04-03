@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SectionTitle from "../../UI/SectionTitle";
-import teamBg from '../../../assets/img/team/team-bg-2.jpg';
+import teamBg from '../../../assets/img/technology/team-bg-2.jpg';
 
 const faqData = [
     {

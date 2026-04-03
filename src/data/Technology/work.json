@@ -1,0 +1,56 @@
+[
+  {
+    "id": 14,
+    "title": "Lead Perfection – CRM",
+    "excerpt": "Grey Structure and Turnkey solutions",
+    "thumb": "technology/lead-perfection.png"
+  },
+  {
+    "id": 13,
+    "title": "Projul – Construction Portal",
+    "excerpt": "Contstruction Industry",
+    "thumb": "technology/projul.png"
+  },
+  {
+    "id": 12,
+    "title": "Simple Safety",
+    "excerpt": "Manufacturing sector safety standards compliance",
+    "thumb": "technology/simple-safety.png"
+  },
+  {
+    "id": 11,
+    "title": "SimpliBuy – eCommerce",
+    "excerpt": "Medical products marketplace",
+    "thumb": "technology/eCommerce.png"
+  },
+  {
+    "id": 10,
+    "title": "Cream Soda – Project Managent",
+    "excerpt": "Project Management solution",
+    "thumb": "technology/cream-soda.png"
+  },
+  {
+    "id": 9,
+    "title": "Coursatik – EduTech Solution",
+    "excerpt": "Learning Management Solution (LMS)",
+    "thumb": "technology/coursatic.png"
+  },
+  {
+    "id": 8,
+    "title": "Dental on Demand – Staffing Solution",
+    "excerpt": "A human resource management solution for dentists.",
+    "thumb": "technology/dental-od.png"
+  },
+  {
+    "id": 7,
+    "title": "Go Parent – Childcare Managent",
+    "excerpt": "A solution for separated parents for their childcare.",
+    "thumb": "technology/go-parent.png"
+  },
+  {
+    "id": 6,
+    "title": "PalletPal – Logistics Solution",
+    "excerpt": "A logistics management solution",
+    "thumb": "technology/palletpal.png"
+  }
+]

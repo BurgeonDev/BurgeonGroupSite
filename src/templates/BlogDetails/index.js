@@ -3,11 +3,11 @@ import PageWrapper from "../../components/PageWrapper";
 import BlogDetailsContentWrapper from "./ContentWrapper";
 import SidebarForBlog from "../SidebarForBlog";
 import PageHeader from "../../components/PageHeader";
-import BlogData from "../../data/Blog/blog";
+import constructionData from "../../data/Construction/construction.json";
 
 const BlogDetailsPage = ({sidebar}) => {
     const post_id = new URLSearchParams(window.location.search).get("id");
-    const post = BlogData.find(post => post.id === parseInt(post_id));
+    const post = constructionData.find(post => post.id === parseInt(post_id));
 
     return (
         <Fragment>

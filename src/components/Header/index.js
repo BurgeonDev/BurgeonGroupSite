@@ -1,45 +1,44 @@
 import Logo from './Logo'
 import Navbar from './Navbar/Navbar'
 import HeaderConfig from './HeaderConfig'
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Header = () => {
     const [isSticky, setIsSticky] = useState(false);
 
     const sticky = () => {
-        const scrollTop = window.scrollY;
-        scrollTop >= 250 ? setIsSticky(true) : setIsSticky(false);
-    }
+        setIsSticky(window.scrollY >= 100);
+    };
 
     useEffect(() => {
         window.addEventListener('scroll', sticky);
-
-        return () => {
-            window.removeEventListener('scroll', sticky);
-        }
+        return () => window.removeEventListener('scroll', sticky);
     }, []);
 
     return (
         <header className={`header-area ${isSticky ? 'sticky' : ''}`}>
             <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-5 col-lg-2">
-                        <Logo/>
+                <div className="header-inner">
+
+                    {/* Logo */}
+                    <div className="header-left">
+                        <Logo />
                     </div>
 
-                    <div className="col-lg-7 d-none d-lg-block">
-                        <div className="mt-lg-3 text-black">
-                            <Navbar/>
-                        </div>
+                    {/* Navbar */}
+                    <div className="header-center d-none d-lg-flex">
+                        <Navbar />
                     </div>
 
-                    <div className="col-7 col-lg-3">
-                        <HeaderConfig/>
+                    {/* Right Side */}
+                    <div className="header-right">
+                        <HeaderConfig />
                     </div>
+
                 </div>
             </div>
         </header>
     );
-}
+};
 
 export default Header;

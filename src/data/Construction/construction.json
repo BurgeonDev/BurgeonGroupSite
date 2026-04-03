@@ -1,0 +1,110 @@
+[
+  {
+    "id": 14,
+    "title": "Residential Construction",
+    "excerpt": "Grey Structure and Turnkey solutions",
+    "thumb": "blog/residential.jpg",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p> <blockquote class='blockquote'><p>dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p></blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p>",
+    "publishDate": "Feb 14, 2020",
+    "author": {
+      "name": "KB Arifa",
+      "designation": "Senior Writer",
+      "proPic": "team/02.jpg",
+      "socials": {
+        "facebook": "hasthemes",
+        "twitter": "hasthemes",
+        "linkedin": "hasthemes"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "title": "Commercial Construction",
+    "excerpt": "Commercial high-rise construction",
+    "thumb": "blog/commercial.jpg",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p> <blockquote class='blockquote'><p>dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p></blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p>",
+    "publishDate": "Feb 13, 2020",
+    "author": {
+      "name": "",
+      "designation": "",
+      "proPic": "team/01.jpg",
+      "socials": {
+        "facebook": "hasthemes",
+        "twitter": "hasthemes",
+        "linkedin": "hasthemes"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "title": "Interior Design",
+    "excerpt": "Interior designs for residential and commercial.",
+    "thumb": "blog/interior.jpg",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p> <blockquote class='blockquote'><p>dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p></blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p>",
+    "publishDate": "Feb 12, 2020",
+    "author": {
+      "name": "Kajal Akter",
+      "designation": "Junior Writer",
+      "proPic": "team/06.jpg",
+      "socials": {
+        "facebook": "hasthemes",
+        "twitter": "hasthemes",
+        "linkedin": "hasthemes"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "title": "Project Management",
+    "excerpt": "We will take care of your construction project.",
+    "thumb": "blog/project-management.jpg",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p> <blockquote class='blockquote'><p>dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p></blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p>",
+    "publishDate": "Feb 11, 2020",
+    "author": {
+      "name": "Hasan Al Mubarak",
+      "designation": "Senior Writer",
+      "proPic": "team/05.jpg",
+      "socials": {
+        "facebook": "hasthemes",
+        "twitter": "hasthemes",
+        "linkedin": "hasthemes"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "title": "Mechanical Electrical Plumbing (MEP)",
+    "excerpt": "Commercial high-rise construction",
+    "thumb": "blog/mechanical.jpg",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p> <blockquote class='blockquote'><p>dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p></blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p>",
+    "publishDate": "Feb 10, 2020",
+    "author": {
+      "name": "Tasnim Akter",
+      "designation": "Senior Writer",
+      "proPic": "team/04.jpg",
+      "socials": {
+        "facebook": "hasthemes",
+        "twitter": "hasthemes",
+        "linkedin": "hasthemes"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "title": "Renovation and Re-modelling",
+    "excerpt": "Renovation of residential and commercial projects",
+    "thumb": "blog/renovation.jpg",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p> <blockquote class='blockquote'><p>dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p></blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p>",
+    "publishDate": "Feb 09, 2020",
+    "author": {
+      "name": "Uzzal Hossain",
+      "designation": "Content Writer",
+      "proPic": "team/03.jpg",
+      "socials": {
+        "facebook": "hasthemes",
+        "twitter": "hasthemes",
+        "linkedin": "hasthemes"
+      }
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 14,
+    "title": "Web Applications",
+    "thumb": "technology/web.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Mobile Apps",
+    "thumb": "technology/mobile.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Offshore Staffing",
+    "thumb": "technology/human-resource.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Support/Maintenance",
+    "thumb": "technology/support-maintenance.jpg"
+  }
+]

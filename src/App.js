@@ -10,11 +10,12 @@ import ServiceDetails from "./pages/ServiceDetails";
 import BlogGridWithoutSidebar from "./pages/BlogGridWithoutSidebar";
 import BlogDetailsPage from "./pages/BlogDetails";
 import Team from "./pages/Team";
-import TeamDetails from "./pages/TeamDetails";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
 import ScrollToTop from "./helpers/ScrollToTop";
+import Technology from "./templates/Technology";
+import Construction from "./templates/Construction";
 
 const App = () => {
   const base = process.env.PUBLIC_URL;
@@ -25,17 +26,17 @@ const App = () => {
         <Routes>
           <Route path={`${base}/`} element={<HomeOne />} />
 
-          <Route path={`${base}/services`} element={<Service />} />
-          <Route path={`${base}/service/:serviceID`} element={<ServiceDetails />} />
+          {/* <Route path={`${base}/services`} element={<Service />} />
+          <Route path={`${base}/service/:serviceID`} element={<ServiceDetails />} /> */}
 
-          <Route path={`${base}/blog`} element={<BlogGridWithoutSidebar />} />
-          <Route path={`${base}/blog/:blogID`} element={<BlogDetailsPage />} />
+          {/* <Route path={`${base}/blog`} element={<BlogGridWithoutSidebar />} />
+          <Route path={`${base}/blog/:blogID`} element={<BlogDetailsPage />} /> */}
 
-          <Route path={`${base}/team`} element={<Team />} />
-          <Route path={`${base}/team-member/:teamID`} element={<TeamDetails />} />
+          <Route path={`${base}/technology`} element={<Technology />} />
+          <Route path={`${base}/construction`} element={<Construction />} />
+          <Route path={`${base}/contact`} element={<Contact />} />
 
           <Route path={`${base}/about`} element={<About />} />
-          <Route path={`${base}/contact`} element={<Contact />} />
 
           {/* 404 page */}
           <Route path="*" element={<Error404 />} />

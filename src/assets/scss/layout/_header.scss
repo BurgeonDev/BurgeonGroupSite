@@ -2,83 +2,76 @@
 04. Index Area Style CSS
 ===========================*/
 
-.header-area{
-  background-color: black;
-  padding: 30px 0;
-  transition: 0.4s;
+/* HEADER BASE */
+.header-area {
+  background-color: #000;
+  // padding: 0;
+  transition: all 0.3s ease;
+}
 
-  &.sticky{
-    animation: slideInDown 0.6s forwards;
-    padding: 5px 0 15px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 99;
+/* FLEX LAYOUT */
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-    @media #{$sm-device, $md-device} {
-      padding: 20px 0;
-    }
+/* LEFT (LOGO) */
+.header-left img {
+  height: 40px;
+  padding: 0;
+}
 
-    .logo{
-      &-dark{
-        display: none;
-      }
-    }
+/* CENTER (NAVBAR) */
+.header-center {
+  flex: 1;
+  justify-content: center;
+}
 
-  .main-menu {
-    .submenu-nav {
-      margin-top: 25px;
-      text-black
+/* NAV LINKS */
+.header-center ul {
+  display: flex;
+  // gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
-      &:before {
-        height: 25px;
-      }
+.header-center ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.3s;
+}
 
-      a {
-        color: black; // or #000
-      }
-    }
-  }
-  }
+.header-center ul li a:hover {
+  color: #22c55e; /* green hover */
+}
 
-  &.transparent:not(.sticky){
-    background-color: transparent;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 99;
+/* RIGHT SIDE */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
-    .logo{
-      &-light{
-        display: none;
-      }
-    }
+/* STICKY HEADER */
+.header-area.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(6px);
+  padding: 6px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
 
-    .main-menu{
-      & > li{
-
-        &.has-submenu{
-          &:after{
-            color: black;
-            font-weight: 600;
-          }
-        }
-
-        & > a{
-          color: $brandColor;
-          font-weight: 600;
-        }
-      }
-    }
-
-    .header-action{
-      a,button{
-        color: $brandColor;
-        font-weight: 600;
-      }
-    }
+/* MOBILE */
+@media (max-width: 991px) {
+  .header-center {
+    display: none;
   }
 }
 
