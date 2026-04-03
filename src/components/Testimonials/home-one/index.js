@@ -22,14 +22,14 @@ function Testimonials() {
     }
 
     return (
-        <div className="testimonial-area bg-offwhite sp-y sm-top">
+        <div className="testimonial-area bg-offwhite sm-top">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 m-auto text-center">
-                        <SectionTitle
-                            title="TESTIMONIALS"
-                            heading="Our Customer <br/>Loves What we do"
-                        />
+                        <div className="section-title text-center text-black">
+                            <h2>TESTIMONIALS</h2>
+                            <h5>Our Customer Loves What we do</h5>
+                        </div>
                     </div>
                 </div>
 
