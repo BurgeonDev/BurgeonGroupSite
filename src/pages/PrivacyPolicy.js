@@ -2,16 +2,11 @@ import React from "react";
 
 function PrivacyPolicy() {
   return (
-    <div className="container mt-5 mb-5">
+    <div className="container mt-5 mb-5 p-4">
       <div className="privacy-policy" style={{ zoom: 1.1 }}>
         <hr />
 
-        <h1>Privacy Policy for Burgeon Group</h1>
-
-        <p>
-          <strong>Effective Date:</strong> [Insert Date] <br />
-          <strong>Last Updated:</strong> [Insert Date]
-        </p>
+        <h1>Privacy Policy</h1>
 
         <p>
           <strong>Burgeon Group</strong> ("Company," "we," "us," or "our")
@@ -90,8 +85,7 @@ function PrivacyPolicy() {
 
         <h5>8. Contact</h5>
         <p>
-          <strong>Email:</strong> privacy@burgeongroup.com <br />
-          <strong>Address:</strong> [Insert Address]
+          <strong>Email:</strong> info@burgeon-grp.com <br />
         </p>
 
         <h5>9. Updates</h5>
@@ -101,12 +95,6 @@ function PrivacyPolicy() {
         </p>
 
         <hr />
-
-        <p>
-          <em>
-            This policy is for informational purposes and not legal advice.
-          </em>
-        </p>
 
       </div>
     </div>

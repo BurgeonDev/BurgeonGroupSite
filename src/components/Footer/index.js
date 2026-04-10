@@ -29,18 +29,19 @@ function Footer() {
                     </div>
 
                     <div className="col-md-4 col-lg-2 ml-auto">
-                        <Widget title="Information">
+                        <Widget title="Pages">
                             <List classes="widget-list">
-                                <LI><Link to={`${process.env.PUBLIC_URL + "/about"}`}>Our company</Link></LI>
+                                <LI><Link to={`${process.env.PUBLIC_URL + "/construction"}`}>Construction</Link></LI>
+                                <LI><Link to={`${process.env.PUBLIC_URL + "/organic-food"}`}>Organic Food</Link></LI>
+                                <LI><Link to={`${process.env.PUBLIC_URL + "/technology"}`}>Technology</Link></LI>
+                                <LI><Link to={`https://travel.burgeon-grp.com`}>Travel</Link></LI>
                                 <LI><Link to={`${process.env.PUBLIC_URL + "/contact"}`}>Contact us</Link></LI>
-                                <LI><Link to={`${process.env.PUBLIC_URL + "/services"}`}>Our services</Link></LI>
-                                <LI><Link to={`${process.env.PUBLIC_URL + "/"}`}>Careers</Link></LI>
                             </List>
                         </Widget>
                     </div>
 
                     <div className="col-md-4 col-lg-2 ml-auto">
-                        <Widget title="Policy">
+                        <Widget title="Policies">
                             <List classes="widget-list">
                                 <LI><Link to={`${process.env.PUBLIC_URL + "/privacy-policy"}`}>Privacy Policy</Link></LI>
                                 <LI><Link to={`${process.env.PUBLIC_URL + "/refund-return-policy"}`}>Refund Return Policy</Link></LI>
