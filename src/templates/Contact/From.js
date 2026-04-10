@@ -124,13 +124,13 @@ const From = () => {
                             disabled={status.sending}
                         />
 
-                        <div className="mt-20 mb-20">
+                        {/* <div className="mt-20 mb-20">
                             <ReCAPTCHA
                                 ref={recaptchaRef}
                                 sitekey={recaptchaSiteKey}
                                 onChange={(token) => setCaptchaToken(token || '')}
                             />
-                        </div>
+                        </div> */}
 
                         {status.message && (
                             <div className={`form-message ${status.success === true ? 'success' : status.success === false ? 'error' : ''}`}>

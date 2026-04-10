@@ -6,7 +6,6 @@ import Footer from "../components/Footer";
 import LoginRegister from "../components/LoginRegister";
 import MobileMenu from "../components/MobileMenu";
 
-
 const PageContact = () => {
     return (
         <Fragment>
