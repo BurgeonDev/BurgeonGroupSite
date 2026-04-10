@@ -23,7 +23,8 @@
   {
     "id": 5,
     "title": "Travel",
-    "link": "/travel",
+    "link": "https://travel.burgeon-grp.com",
+    "external": true,
     "megaMenu": false,
     "subMenu": false
   },

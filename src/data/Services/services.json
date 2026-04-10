@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Construction",
+    "link": "/construction",
     "shortDesc": "Burgeon Group's Construction division delivers residential and commercial building projects. With our project management expertise we aim to ensure timely, cost-effective, and sustainable results.",
     "thumb": "service/construction.jpeg",
     "previewImages": [
@@ -18,6 +19,8 @@
   {
     "id": 2,
     "title": "Travel",
+    "link": "https://travel.burgeon-grp.com",
+    "external": true,
     "shortDesc": "Burgeon Group's Travel division offers unforgettable domestic travel experiences across Pakistan. We provide curated tours and seamless logistics for explorers nationwide.",
     "thumb": "service/travel.jpeg",
     "previewImages": [
@@ -34,6 +37,7 @@
   {
     "id": 3,
     "title": "Organic Food",
+    "link": "/organic-food",
     "shortDesc": "Burgeon Group's Organic Food division brings organic, chemical-free produce to your table. Sourced from trusted local farms, our range includes wheat starch, almond oil, walnut oil, jaggery (gurh) etc.",
     "thumb": "service/organicfood.jpeg",
     "previewImages": [
@@ -50,6 +54,7 @@
   {
     "id": 4,
     "title": "Technology",
+    "link": "/technology",
     "shortDesc": "Burgeon Group's Technology division delivers robust, scalable and affordable software and technology soutions that help individuals, startups and businesses to grow, automate and scale seamlessly.",
     "thumb": "service/04.jpg",
     "previewImages": [

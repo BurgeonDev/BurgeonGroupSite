@@ -1,9 +1,11 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import ReCAPTCHA from 'react-google-recaptcha';
 import FormInput from "../../components/UI/Input";
 
 const From = () => {
     const formRef = useRef();
+    const recaptchaRef = useRef(null);
     const [formData, setFormData] = useState({
         first_name: '',
         last_name: '',
@@ -11,7 +13,9 @@ const From = () => {
         phone_no: '',
         con_message: ''
     });
+    const [captchaToken, setCaptchaToken] = useState('');
     const [status, setStatus] = useState({ sending: false, success: null, message: '' });
+    const recaptchaSiteKey = '6LcQyK4sAAAAAOWiP8qu0nI5823E7nDn_liXiLuo';
 
     const handleChange = (e) => {
         setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
@@ -19,6 +23,17 @@ const From = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        if (!recaptchaSiteKey) {
+            setStatus({ sending: false, success: false, message: 'Captcha site key is missing. Please configure it first.' });
+            return;
+        }
+
+        if (!captchaToken) {
+            setStatus({ sending: false, success: false, message: 'Please complete the captcha first.' });
+            return;
+        }
+
         setStatus({ sending: true, success: null, message: 'Sending...' });
 
         emailjs.sendForm(
@@ -30,6 +45,10 @@ const From = () => {
         .then(() => {
             setStatus({ sending: false, success: true, message: 'Your message has been sent successfully!' });
             setFormData({ first_name: 'khjgkjg', last_name: 'kjhgkjhg', email_address: 'khjgkjg@gmail.com', phone_no: '+923331342525', con_message: 'hello' })
+            setCaptchaToken('');
+            if (recaptchaRef.current) {
+                recaptchaRef.current.reset();
+            }
         })
         .catch((error) => {
             console.error('EmailJS error:', error);
@@ -89,6 +108,7 @@ const From = () => {
                     </div>
 
                     <div className="col-12">
+                        <input type="hidden" name="captcha_token" value={captchaToken} />
                         <FormInput
                             tag={'textarea'}
                             name={'con_message'}
@@ -103,6 +123,14 @@ const From = () => {
                             classes={'btn-outline'}
                             disabled={status.sending}
                         />
+
+                        <div className="mt-20 mb-20">
+                            <ReCAPTCHA
+                                ref={recaptchaRef}
+                                sitekey={recaptchaSiteKey}
+                                onChange={(token) => setCaptchaToken(token || '')}
+                            />
+                        </div>
 
                         {status.message && (
                             <div className={`form-message ${status.success === true ? 'success' : status.success === false ? 'error' : ''}`}>

@@ -39,6 +39,17 @@ function Footer() {
                         </Widget>
                     </div>
 
+                    <div className="col-md-4 col-lg-2 ml-auto">
+                        <Widget title="Policy">
+                            <List classes="widget-list">
+                                <LI><Link to={`${process.env.PUBLIC_URL + "/privacy-policy"}`}>Privacy Policy</Link></LI>
+                                <LI><Link to={`${process.env.PUBLIC_URL + "/refund-return-policy"}`}>Refund Return Policy</Link></LI>
+                                <LI><Link to={`${process.env.PUBLIC_URL + "/terms&conditions"}`}>Terms and Conditions</Link></LI>
+                                <LI><Link to={`${process.env.PUBLIC_URL + "/service-policy"}`}>Service Policy</Link></LI>
+                            </List>
+                        </Widget>
+                    </div>
+
                     {/* <div className="col-md-4 col-lg-2 ml-auto">
                         <Widget title="Social Links">
                             <List classes="widget-list">

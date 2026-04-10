@@ -23,7 +23,15 @@ function Services({classes}) {
                     <div className="row mtn-30">
                         {
                             ServicesData.map(service=>(
-                                <ServiceItem key={service.id} id={service.id} title={service.title} text={service.shortDesc} thumb={service.thumb}/>
+                                <ServiceItem
+                                    key={service.id}
+                                    id={service.id}
+                                    title={service.title}
+                                    text={service.shortDesc}
+                                    thumb={service.thumb}
+                                    link={service.link}
+                                    external={service.external}
+                                />
                             ))
                         }
                     </div>

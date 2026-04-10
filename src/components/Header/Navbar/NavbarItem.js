@@ -8,7 +8,11 @@ function NavbarItem(props) {
             <li key={item.id}
                 className={item.subMenu || item.megaMenu ? 'has-submenu' : ''}
             >
-                <Link to={`${process.env.PUBLIC_URL + item.link}`}>{item.title}</Link>
+                {item.external ? (
+                    <a href={item.link} target="_blank" rel="noopener noreferrer">{item.title}</a>
+                ) : (
+                    <Link to={`${process.env.PUBLIC_URL + item.link}`}>{item.title}</Link>
+                )}
                 {(() => {
                     if(item.subMenu){
                         return(
